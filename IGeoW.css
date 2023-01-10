@@ -57,28 +57,28 @@ main img{
     margin-right: 40px;
 }
 .background-home{
-    background-image: url("canyon.webp");
+    background-image: url("./Tab/canyon.webp");
     width: 100vw;
     height: 100vh;
 }
 .background-stones{
-    background-image: url("stone.jpg");
+    background-image: url("./Tab/stone.jpg");
     background-color: white;
     width: 100vw;
     background-repeat: repeat-y;
 }
 .background-lands{
-    background-image: url("lands.jpg");
+    background-image: url("./Tab/lands.jpg");
     width: 100vw;
     background-repeat: repeat-y;
 }
 .background-soil{
-    background-image: url("soils.JPG");
+    background-image: url("./Tab/soils.JPG");
     width: 100vw;
     background-size: contain;
 }
 .background-mountains{
-    background-image: url("mountains.jpeg");
+    background-image: url("./Tab/mountains.jpeg");
     width: 100vw;
     background-repeat: repeat-y;
     background-size: contain;
