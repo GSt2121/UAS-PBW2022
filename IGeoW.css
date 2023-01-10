@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,600;0,800;1,200;1,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+main{
+    width: 100vw;
+    /* height: 100vh; */
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 80px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav{
+    background-color: brown;
+    margin-top: 35px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 4px 7px;
+}
+nav a:hover{
+    border: 1px solid wheat;
+    background-color: wheat;
+    
+}
+nav h2{
+    font-weight: 800;
+}
+main .lefttext{
+    width: 400px;
+}
+main h1{
+    font-size: 47px;
+    opacity: 1;
+}
+main img{
+    width: 250px;
+    margin-right: 40px;
+}
+.background-home{
+    background-image: url("canyon.webp");
+    width: 100vw;
+    height: 100vh;
+}
+.background-stones{
+    background-image: url("stone.jpg");
+    background-color: white;
+    width: 100vw;
+    background-repeat: repeat-y;
+}
+.background-lands{
+    background-image: url("lands.jpg");
+    width: 100vw;
+    background-repeat: repeat-y;
+}
+.background-soil{
+    background-image: url("soils.JPG");
+    width: 100vw;
+    background-size: contain;
+}
+.background-mountains{
+    background-image: url("mountains.jpeg");
+    width: 100vw;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.content{
+    margin-top: 40px;
+    display: flex;
+    width:max-content;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
