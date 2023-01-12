@@ -5,13 +5,12 @@
     margin: 0;
 }
 body{
-    background-color: white;
+    background-color: rgb(247, 216, 195);
     color: black;
     overflow-x: hidden;
 }
 main{
     width: 100vw;
-    /* height: 100vh; */
     font-family: 'Orbitron', sans-serif;
     padding-top: 80px;
     position: relative;
@@ -22,7 +21,7 @@ main{
     padding-right: 30px;
 }
 nav{
-    background-color: brown;
+    background-color: rgba(135, 65, 0, 0.80);
     margin-top: 35px;
     padding: 20px 0px;
     display: flex;
@@ -38,8 +37,8 @@ nav a{
     padding: 4px 7px;
 }
 nav a:hover{
-    border: 1px solid wheat;
-    background-color: wheat;
+    border: 3px solid rgba(135, 65, 0, 0.15);
+    background-color: rgba(135, 65, 0, 0.45);
     
 }
 nav h2{
@@ -50,46 +49,49 @@ main .lefttext{
 }
 main h1{
     font-size: 47px;
-    opacity: 1;
 }
 main img{
     width: 250px;
     margin-right: 40px;
 }
 .background-home{
-    background-image: url("./Tab/canyon.webp");
+    background-image: url("./Tab/canyon.png");
     width: 100vw;
     height: 100vh;
+    background-size: contain;
 }
 .background-stones{
-    background-image: url("./Tab/stone.jpg");
+    background-image: url("./Tab/stone.png");
     background-color: white;
     width: 100vw;
     background-repeat: repeat-y;
+    background-size: contain;
 }
 .background-lands{
-    background-image: url("./Tab/lands.jpg");
+    background-image: url("./Tab/lands.png");
     width: 100vw;
     background-repeat: repeat-y;
+    background-size: contain;
 }
 .background-soil{
-    background-image: url("./Tab/soils.JPG");
+    background-image: url("./Tab/soils.png");
     width: 100vw;
     background-size: contain;
 }
 .background-mountains{
-    background-image: url("./Tab/mountains.jpeg");
+    background-image: url("./Tab/mountains.png");
     width: 100vw;
     background-repeat: repeat-y;
     background-size: contain;
 }
 .content{
     margin-top: 40px;
+    margin-right:40px;
     display: flex;
-    width:max-content;
+    width: fit-content;
 }
 .grid{
     display: grid;
     grid-template-columns: auto auto;
-    width: 100%;
+    width: 92%;
 }
